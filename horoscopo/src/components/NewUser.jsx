@@ -14,7 +14,7 @@ function NewUser() {
         const newUser = { username, password, role };
 
         try {
-            const response = await fetch('https://horoscopo-back-eta.vercel.app/v1/signos/createUser', {
+            const response = await fetch('https://horoscopo-back-lx19.vercel.app/v1/signos/createUser', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
