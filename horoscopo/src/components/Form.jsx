@@ -11,7 +11,7 @@ function Form({ callback }) {
         event.preventDefault();
 
         try {
-            const response = await fetch('hhttps://horoscopo-back-lx19.vercel.app/v1/signos/login', {
+            const response = await fetch('https://horoscopo-back-lx19.vercel.app/v1/signos/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
