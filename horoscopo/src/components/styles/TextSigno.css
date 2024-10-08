@@ -1,0 +1,6 @@
+#textoSigno{
+    border-radius: 10px;
+    display: flex;
+    background-color:rgb(46, 37, 37);
+    color: white;
+}
